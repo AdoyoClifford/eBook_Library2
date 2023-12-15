@@ -29,14 +29,14 @@
         <div><div><div><div></div></div></div></div>
     </div>
 </div>
-{% include 'store/bin/header.html' %}
 
+{% include 'store/header.html' %}
 {% block headermenu %} {% endblock %}
 
 <div class="container-fluid">
 	<div class="row">
 		<div class="col-sm-2">
-			{% include 'store/bin/sidebar.html' %}
+			{% include 'store/sidebar.html' %}
 		</div>
 		<div class="col-sm-10">
 			{% block container %}{% endblock %}
@@ -45,7 +45,7 @@
 </div>
 <div id="snackbar"></div>
 
-{% include 'store/bin/footer.html' %}
+{% include 'store/footer.html' %}
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js" type="text/javascript"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-touchspin/4.2.5/jquery.bootstrap-touchspin.js" type="text/javascript"></script>
